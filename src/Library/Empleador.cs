@@ -9,11 +9,7 @@ namespace Library
         {
     
         }
-        public void calificarEmpleado(Empleado empleado, Calificacion calificacion)
-        {
-            empleado.reputacion.agregarCalificacion(calificacion);
-            
-        }
+        
         
 
     }
