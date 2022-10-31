@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace Library
 {
-
     public class Contrato 
     {
         public Servicio servicio;

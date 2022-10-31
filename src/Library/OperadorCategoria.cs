@@ -15,23 +15,23 @@ namespace Library{
             this.categorias = new List<Categoria>();
         }
 
-        public void agregarCategoria(Categoria cat){
+        public void agregarCategoria(Categoria categoria){
 
-            categorias.Add(cat);            
+            categorias.Add(categoria);            
         }
 
-        public void editarCaregoria(int idEditar, Categoria cat){
+        public void editarCaregoria(int idEditar, Categoria categoria){
             
             for (int i = 0; i < categorias.Count; i++)
             {
                 if(categorias[i].id == idEditar){
-                    cat.catServicio = categorias[i].catServicio;
-                    categorias[i] = cat;
+                    categoria.catServicio = categorias[i].catServicio;
+                    categorias[i] = categoria;
                 }
             }
         }
 
-        public void cancelarCategoria(int idCancelar, Categoria cat){
+        public void cancelarCategoria(int idCancelar, Categoria categoria){
 
             for (int i = 0; i < categorias.Count; i++)
             {
@@ -79,12 +79,12 @@ namespace Library{
             {
                 return categoria.catServicio;
             }
-            else{
-
-                throw new Exception("No se existen categorias con ese ID"); //Hacemos uso de las excepciones
+            else
+            {
+                return null;
             }
 
-           
+        
         }
         
     }    

@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace Library 
 {
-
     public class Categoria : operadorCategorias
     {
         public string nombre;
