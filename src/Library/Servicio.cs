@@ -4,11 +4,6 @@ using System.Collections.Generic;
 namespace Library
 {
 
-
-/// <summary>
-/// Clase encargada de gestionar los servicios
-/// </summary>
-
     public class Servicio : operadorServicios
     {
 
