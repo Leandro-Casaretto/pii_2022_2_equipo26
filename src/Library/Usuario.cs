@@ -11,6 +11,8 @@ namespace Library
         public string email;
         protected int telefono;
         protected int id;
+
+        public Performance performance;
         
         protected Usuario(string nombre, string apellido, string email, int telefono, int id) 
         {

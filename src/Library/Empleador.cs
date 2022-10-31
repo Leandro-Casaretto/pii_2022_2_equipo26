@@ -10,6 +10,12 @@ namespace Library
     
         }
         
+        public void calificarEmpleado(Empleado empleado, Calificacion calificacion)
+        {
 
-    }
-} 
+            empleado.performance.agregarCalificaciones(calificacion);
+
+
+        }
+    } 
+}
