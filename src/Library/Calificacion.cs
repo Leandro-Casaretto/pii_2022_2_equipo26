@@ -6,12 +6,10 @@ namespace Library
     public class Calificacion 
     {
         public float valor;
-        string commentary;
     
-        public Calificacion(float valor, string commentary)
+        public Calificacion(float valor)
         {
             this.valor = valor;
-            this.commentary=commentary;
         }
         
     }
