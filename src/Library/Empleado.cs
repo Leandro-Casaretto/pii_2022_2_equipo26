@@ -20,9 +20,5 @@ namespace Library
             
         }
 
-        public void calificarEmpleador(Empleador empleador, Calificacion calificacion)
-        {
-            empleador.reputacion.agregarCalificacion(calificacion);
-        }
     }
 }
