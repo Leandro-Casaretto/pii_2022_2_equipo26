@@ -20,5 +20,10 @@ namespace Library
             
         }
 
+        public void calificarEmpleador(Empleador empleador, Calificacion calificacion)// En este metodo el employee le da una calificacion a un employer
+        {
+            empleador.performance.agregarCalificaciones(calificacion);
+        }
+
     }
 }
