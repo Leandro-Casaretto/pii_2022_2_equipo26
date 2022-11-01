@@ -17,9 +17,6 @@ namespace Library
         {
             
         }
-        public void hablarConOfertante(Servicio servicio)
-        {
-            
-        }
+        
     }
 }
