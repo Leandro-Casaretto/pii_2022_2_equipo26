@@ -1,4 +1,4 @@
-# README
+# NOTAS DEL PROYECTO
 
 ### Refelxiones de la Segunda Entrega
 
