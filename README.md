@@ -7,7 +7,7 @@ Si hablamos de los patrones, si bien nos falta aplicar algunos, notamos una ampl
 
 ### Uso de la Herencia en nuestro código
 
-Se utilizó Herencia en varias clases. Ejemplos:
+Se utilizó Herencia en varias clases. Algunos ejemplos:
 
 ```
 public class Empleador : Usuario
