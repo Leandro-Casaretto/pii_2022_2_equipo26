@@ -15,6 +15,10 @@ namespace Tests
         {
         }
     
+        /// <summary>
+        /// Creamos el empleador
+        /// </summary>
+
         [Test]
         public void initEmpleador()
         {
@@ -28,6 +32,10 @@ namespace Tests
             
             Assert.IsNotEmpty(usuarios);
         }
+
+        /// <summary>
+        /// Quitamos el empleador
+        /// </summary>
 
         [Test]
         public void quitarEmpleador()
@@ -45,6 +53,10 @@ namespace Tests
             Assert.IsEmpty(usuarios);
         }
 
+
+        /// <summary>
+        /// Calificamos al empleado
+        /// </summary>
 
         [Test]
         public void calificarEmpleado() 

@@ -14,6 +14,10 @@ namespace Tests
         {
         }
 
+        /// <summary>
+        /// Creamos el admin
+        /// </summary>
+
         [Test]
         public void initAdmin()
         {
@@ -29,6 +33,11 @@ namespace Tests
 
         }
 
+        /// <summary>
+        /// Quitamos el admin
+        /// </summary>
+        
+        [Test]
         public void quitarAdmin()
         {
             Admin Pedro = new Admin("Pedro", "Gonzalez", "pedro@gmail.com", 099887766, 0002); 
@@ -44,6 +53,11 @@ namespace Tests
             Assert.IsEmpty(usuarios);
         }
 
+        /// <summary>
+        /// Agregamos categorias
+        /// </summary>
+
+        [Test]
         public void agregarCategorias()
         {
             Admin Pedro = new Admin("Pedro", "Gonzalez", "pedro@gmail.com", 099887766, 0002); 

@@ -3,14 +3,21 @@ using System.Collections.Generic;
 
 namespace Library
 {
-    public abstract class Usuario // Empleador, Administrador y Empleado heredan de esta clase
+
+    /// <summary>
+    /// Empleador, Administrador y Empleado heredarán de esta clase
+    /// </summary>
+    public abstract class Usuario 
     {
 
-        protected string nombre; //Protegido para que solo la misma clase o la clase instanciada pueda hacer uso.
-        protected string apellido;
+        /// <summary>
+        /// Establecemos las propiedades
+        /// </summary>
+        public string nombre; 
+        public string apellido;
         public string email;
-        protected int telefono;
-        protected int id;
+        public int telefono;
+        public int id;
 
         public Performance performance;
         
@@ -23,7 +30,10 @@ namespace Library
             this.id = id;
         }
 
-        //A continuación establecemos las properties del usuario
+        /// <summary>
+        /// Establecemos las propiedades del usuario
+        /// </summary>
+        
         public string Nombre { get { return this.nombre; } }
         public string Apellido { get { return this.apellido; } }
         public string Email { get { return this.email; } set { this.email = value; } } //Para que a su vez lo setee
