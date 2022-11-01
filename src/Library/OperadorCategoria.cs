@@ -70,10 +70,10 @@ namespace Library{
         }
 
 
-        public List<Servicio> listarCatServicios(int categoriaID)
+        public List<Servicio> listarCatServicios(int idCategoria)
         {   
             
-            var categoria =  this.categorias.FirstOrDefault(c => c.id==categoriaID);
+            var categoria =  this.categorias.FirstOrDefault(c => c.id==idCategoria);
 
             if(categoria != null)
             {
