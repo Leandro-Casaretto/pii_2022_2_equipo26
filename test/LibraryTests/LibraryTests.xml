@@ -4,29 +4,34 @@
         <name>LibraryTests</name>
     </assembly>
     <members>
-        <member name="T:Tests.TrainTests">
+        <member name="M:Tests.adminTest.initAdmin">
             <summary>
-            Prueba de la clase <see cref="T:ClassLibrary.Train"/>.
+            Creamos el admin
             </summary>
         </member>
-        <member name="F:Tests.TrainTests.train">
+        <member name="M:Tests.adminTest.quitarAdmin">
             <summary>
-            El tren para probar.
+            Quitamos el admin
             </summary>
         </member>
-        <member name="M:Tests.TrainTests.Setup">
+        <member name="M:Tests.adminTest.agregarCategorias">
             <summary>
-            Crea un tren para probar.
+            Agregamos categorias
             </summary>
         </member>
-        <member name="M:Tests.TrainTests.StartTrainTest">
+        <member name="M:Tests.testEmpleador.initEmpleador">
             <summary>
-            Prueba que el tren arranque.
+            Creamos el empleador
             </summary>
         </member>
-        <member name="M:Tests.TrainTests.StopTrainTest">
+        <member name="M:Tests.testEmpleador.quitarEmpleador">
             <summary>
-            Prueba que el tren se detenga.
+            Quitamos el empleador
+            </summary>
+        </member>
+        <member name="M:Tests.testEmpleador.calificarEmpleado">
+            <summary>
+            Calificamos al empleado
             </summary>
         </member>
     </members>

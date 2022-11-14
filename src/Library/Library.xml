@@ -4,8 +4,45 @@
         <name>Library</name>
     </assembly>
     <members>
+        <member name="T:Library.operadorUsuarios">
+            <summary>
+            Esta clase es la encargada de agregar, quitar y listar los usuarios (ofertas)
+            </summary>
+        </member>
         <member name="T:Library.Performance">
-            
+            <summary>
+            Esta clase es la encargada de brindar el historial o la performance general 
+            </summary>
+        </member>
+        <member name="M:Library.Performance.listarCalificaciones">
+            <summary>
+            Lista las calificaciones 
+            </summary>
+        </member>
+        <member name="M:Library.Performance.agregarCalificaciones(Library.Calificacion)">
+            <summary>
+            Agrega las calificaciones
+            </summary>
+        </member>
+        <member name="M:Library.Performance.quitarCalificaciones(Library.Calificacion)">
+            <summary>
+            Quita las calificaciones
+            </summary>
+        </member>
+        <member name="T:Library.Usuario">
+            <summary>
+            Empleador, Administrador y Empleado heredarán de esta clase
+            </summary>
+        </member>
+        <member name="F:Library.Usuario.nombre">
+            <summary>
+            Establecemos las propiedades
+            </summary>
+        </member>
+        <member name="P:Library.Usuario.Nombre">
+            <summary>
+            Establecemos las propiedades del usuario
+            </summary>
         </member>
     </members>
 </doc>
